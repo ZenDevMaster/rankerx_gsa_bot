@@ -125,7 +125,7 @@ Now when the bot runs, it will check RankerX campaigns, skipping over campaign I
 Now you can have the tier below your RankerX tier created almost completely hands-off! 
 
 ## Issues and Future Features
-The bot may be good enough, so future development is not planned yet. But here are a few limitations:
+The bot may be good enough, so future development is not planned yet. But here are a few limitations and ideas:
 
 - [ ] Enable project tags to point to different GSA-SER instances (in the case of having one RankerX instance but multiple GSA-SER instances running)
 - [ ] Better error handling and notifications. Bots really should let you know when there's a problem, but this one isn't smart enough yet.
