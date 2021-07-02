@@ -26,7 +26,7 @@ How to create a new .prj template:
 
 1. Create a new project in GSA. Configure all of the settings per your preferences and import or create. The RankerX_GSA_Bot will use this file to generate new projects when it runs. 
 
-2. Once you're happy with the settings, right click and select "Edit in Notepad"
+2. Once you're happy with the settings, right click and select "Modify Project" -> "Edit in Notepad"
 ![RankerX GSA Tags](./howto/gsa_settings.JPG)
 
 3. Now you need to edit a few lines and then save the file to your c:\RankerX_GSA_Bot folder:
