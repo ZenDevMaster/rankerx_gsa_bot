@@ -8,6 +8,8 @@ The RankerX_GSA_Bot can automate this task and start building a project GSA usin
 ###### Requirements
 1. Python 3.6 or later
 2. Windows operating system with local copy of GSA-SER
+3. RankerX
+4. GSA Search Engine Ranker (running on the same Windows machine as this bot)
 
 ## Installation Instructions:
 
