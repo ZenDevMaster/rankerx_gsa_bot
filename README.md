@@ -39,12 +39,12 @@ last status=active
 pop3 pw=##clear_text_password
 ```
 
--Delete anything that you configured in the URL list from within GSA. The RankerX_GSA_Bot will replace {{URL_LIST}} with the backlinks coming from your RankerX campaign.
--Set the group to something (or nothing) to reflect these are auto-generated projects
--Notes is unused in this version
--If you configure `last status=active` then the project will automatically start running right away. If you want to be set Inactive, set this value to 0.
--Pop3 passwords (and I assume IMAP, but have not tested) are stored encrypted in the INI file when saved from GSA. If you've specified this password from within GSA, you have to replace this line with the password in clear text and insert a leading `##` so GSA knows it's unencrypted.
--Save the file using UTF-8 encoding (if editing in Notepad, don't select the UTF-8 with BOM option)
+- Delete anything that you configured in the URL list from within GSA. The RankerX_GSA_Bot 🤖 will replace {{URL_LIST}} with the backlinks coming from your RankerX campaign.
+- Set the group to something (or nothing) to reflect these are auto-generated projects
+- Notes is unused in this version, but may be added later
+- If you configure `last status=active` then the project will automatically start running right away. If you want to be set Inactive, set this value to 0.
+- Pop3 passwords (and I assume IMAP, but have not tested) are stored encrypted in the INI file when saved from GSA. If you've specified this password from within GSA, you have to replace this line with the password in clear text and insert a leading `##` so GSA knows it's unencrypted.
+- Save the file using UTF-8 encoding (if editing in Notepad, don't select the UTF-8 with BOM option)
 
 4. Finally, find the **.articles** file from your new GSA project copy it to your c:\RankerX_GSA_Bot folder. If you have no articles, you still need a file, but it can be blank.
 
@@ -77,9 +77,9 @@ pop3 pw=##clear_text_password
 }
 ```
 
--RankerX url is `http://localhost:8080` or whatever will access your running instance. The username/password is the same that you use to log into RankerX.
--The GSA `gsa_prj_path` variable is where your .prj files are stored for GSA-SER. Keep in mind that .json files need the "\" charachter escaped with a second "\" charachter. 
--The RankerX_GSA_Bot can use a default GSA template for all of your new projects, and it can also use a unique project for each tag that you specify. 
+- `rankerx_url` is `http://localhost:8080` or whatever will access your running instance. The username/password is the same that you use to log into RankerX.
+- The GSA `gsa_prj_path` variable is where your .prj files are stored for GSA-SER. Keep in mind that .json files need the "\" charachter escaped with a second "\" charachter. 
+- The RankerX_GSA_Bot 🤖 can use a default GSA template for all of your new projects, and it can also use a unique project for each tag that you specify. 
 
 ### Why would you want tags? 
 Perhaps you are building backlinks to a clothing website from RankerX, and you want your GSA project to also use articles, keywords, and other settings related to the clothing niche. At the same time, you are building backlinks to a Pet Care niche website, so you want the GSA project for this to use different articles and settings. In this case, specify tags in your config.json file like this (using correct JSON formatting):
@@ -98,7 +98,7 @@ Perhaps you are building backlinks to a clothing website from RankerX, and you w
         }
 ```
 
-The RankerX_GSA_Bot will know to select the proper GSA project and article files when it synchronizes the project from RankerX. 
+The RankerX_GSA_Bot 🤖 will know to select the proper GSA project and article files when it synchronizes the project from RankerX. 
 
 ### How to configure matching tags inside RankerX
 How does the bot know which tag to use? You have to configure your project name in RankerX with the tag inside square brackets [ ], like this:
