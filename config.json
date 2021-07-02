@@ -1,0 +1,23 @@
+{
+    "rankerx_url": "http://localhost:8080",
+    "rankerx_username": "",
+    "rankerx_password": "",
+    "gsa_prj_path": "C:\\Users\\User\\AppData\\Roaming\\GSA Search Engine Ranker\\projects",
+    "gsa_prj_template_file_default": "GSA_Sample_Project.prj",
+    "gsa_prj_article_file_default": "GSA_Sample_Project.articles",
+    "use_rankerx_anchor_default": false,
+    "gsa_project_config": {
+        "tag1": {
+            "gsa_prj_template_file": "GSA_Sample_Project.prj",
+            "gsa_prj_article_file": "GSA_Sample_Project.articles",
+            "use_rankerx_anchor": false
+        },
+        "tag2": {
+            "gsa_prj_template_file": "GSA_Sample_Project.prj",
+            "gsa_prj_article_file": "GSA_Sample_Project.articles",
+            "use_rankerx_anchor": false
+        }
+    },
+    "campaigns_completed": [
+    ]
+}
