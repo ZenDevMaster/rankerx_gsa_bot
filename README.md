@@ -45,6 +45,7 @@ pop3 pw=##clear_text_password
 - If you configure `last status=active` then the project will automatically start running right away. If you want to be set Inactive, set this value to `0`.
 - `pop3 pw` (and I assume the same for IMAP, but have not tested) are stored encrypted in the INI file when saved from GSA. If you've specified a POP3 password from within GSA, you have to replace this encrypted line with the password in clear text and insert a leading double-hashtag `##` so GSA knows it's unencrypted.
 - Save the file using **UTF-8** encoding (if editing in Notepad, don't select the UTF-8 with BOM option)
+- Be certain the file is saved with a `.prj` extension. Notepad likes to append .txt, so you may need to edit this.
 
 4. Finally, find the **.articles** file from your new GSA project copy it to your c:\RankerX_GSA_Bot folder. If you have no articles, you still need a file, but it can be blank.
 
