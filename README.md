@@ -20,7 +20,7 @@ pip install -r requirements.txt
 
 ### Configure default GSA Project and Article template file and save them to c:\RankerX_GSA_Bot. 
 
-GSA-SER stores all of its project-level configurations in **.prj** files, and the list of articles for to the project in **.article files**. The title of the .prj file name is the title of the project as shown in GSA, and the .article file must have the same name exactly except replace the .prj extension with .article. 
+GSA-SER stores all of its project-level configurations in **.prj** files, and the list of articles for to the project in **.article files**. The title of the .prj file name is the title of the project as shown in GSA, and the .articles file must have the same name exactly except replace the .prj extension with .articles. 
 
 How to create a new .prj template:
 
