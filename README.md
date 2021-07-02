@@ -29,7 +29,7 @@ How to create a new .prj template:
 2. Once you're happy with the settings, right click and select "Edit in Notepad"
 ![RankerX GSA Tags](./howto/gsa_settings.JPG)
 
-3. Now you need to edit a few lines and then save to the file to your c:\RankerX_GSA_Bot folder:
+3. Now you need to edit a few lines and then save the file to your c:\RankerX_GSA_Bot folder:
 
 ```
 URL={{URL_LIST}}
