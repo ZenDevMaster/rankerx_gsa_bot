@@ -79,7 +79,7 @@ pop3 pw=##clear_text_password
 ```
 
 - `rankerx_url` is `http://localhost:8080` or whatever will access your running instance. The username/password is the same that you use to log into RankerX.
-- The GSA `gsa_prj_path` variable is where your .prj files are stored for GSA-SER. Keep in mind that .json files need the "\\" charachter escaped with a second "\\" charachter. 
+- The GSA `gsa_prj_path` variable is where your .prj files are stored for GSA-SER. Keep in mind that .json files need the `\` character escaped with a second `\` character. 
 - The RankerX_GSA_Bot 🤖 can use a default GSA template for all of your new projects, and it can also use a unique project for each tag that you specify. 
 
 ### Why would you want tags? 
