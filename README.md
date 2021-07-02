@@ -123,3 +123,13 @@ If it seems to work, schedule this command to run as often as you like using Tas
 Now when the bot runs, it will check RankerX campaigns, skipping over campaign IDs that it has worked on before and looking at the tasks inside. If all are complete, it will download all of the backlink URLs, edit your project template file (.prj) for you and then copy it to the GSA folder. Finally the bot will call the GSA api to tell it to refresh itself and load the project.
 
 Now you can have the tier below your RankerX tier created almost completely hands-off! 
+
+## Issues and Future Features
+The bot may be good enough, so future development is not planned yet. But here are a few limitations:
+
+- [ ] Enable project tags to point to different GSA-SER instances (in the case of having one RankerX instance but multiple GSA-SER instances running)
+- [ ] Better error handling and notifications. Bots really should let you know when there's a problem, but this one isn't smart enough yet.
+- [ ] Do other things with your RankerX backlinks, such as submitting them to your private custom fast indexer or building a report for a client
+- [ ] Do other things with RankerX, such as automatically generating a new X-Wizard campaign (in case you like to run the same campaigns over multiple times without major changes)
+
+Feel free to open up an issue or submit pull requests if you'd like to help develop the bot.
